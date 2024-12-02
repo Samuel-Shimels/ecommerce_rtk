@@ -33,7 +33,7 @@ const CartSlice = createSlice({
             if (itemToDecrease && itemToDecrease.quantity > 1) {
                 itemToDecrease.quantity -= 1;
             }
-        }        
+        },      
 
     } 
 

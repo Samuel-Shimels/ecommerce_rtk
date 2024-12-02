@@ -30,7 +30,7 @@ const ProductList = () => {
             <button
               className={`add-to-cart-btn ${disabledProducts.includes(product.id) ? 'disabled':''}`}
               onClick={() => handleAddToCart(product)}
-              disabled ={disabled.includes(product.id)}
+              disabled ={disabledProducts.includes(product.id)}
             > 
               Add to Cart
             </button>
